@@ -21,9 +21,8 @@
   <!-- Vendor CSS Files -->
   <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
+  
   <!-- Template Main CSS File -->
   <link href="./assets/css/styles.css" rel="stylesheet">
   <link href="./assets/css/animations/pan.css" rel="stylesheet">
@@ -128,23 +127,21 @@
   </section>
 
   <section id="sec2" class="mt-5">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row pl-lg-5">
-        <div class="order-1 pt-5 pt-lg-0 col-12 col-lg-8 d-flex flex-column justify-content-center">
+        <div class="order-1 pt-5 pt-lg-0 col-12 col-lg-6 d-flex flex-column justify-content-center">
           <div class="content">
-            <div class="text text-center">
-              <div id="chefsname">
-                <h2 data-text="Meena Rahman Iqbal" id="chefname"
-                class="head2 py-5">Meena Rahman Iqbal</h2>
-              </div>
-              <p class="head3 my-4 col-10 mx-auto">Ms. Meena Rahman is a highly skilled professional chef who has been very passionate 
+            <div class="text">
+              <h2 class="head2 pt-5 py-lg-4 m-0"
+              style="font-family: 'sofia-pro-bold'; font-size: 35px;">Meena Rahman Iqbal</h2>
+              <p class="head3 col-10 m-0 px-0">Ms. Meena Rahman is a highly skilled professional chef who has been very passionate 
                 about cooking right from her childhood. As she grew up, her ambition and appetite for cooking found their wings. 
                 She gathered a great deal of experience whilst collecting ideas and inspirations from varied sources all 
                 around her.</p>
             </div>
           </div>
         </div>
-        <div class="order-0 order-lg-1 col-12 col-lg-4 mt-5 mt-md-0 align-self-center
+        <div class="order-0 order-lg-1 col-12 col-lg-6 mt-5 mt-md-0 align-self-center
           d-flex flex-row justify-content-center">
           <img src="./assets/img/chef2.jpg" class="chefimg2" />
         </div>
@@ -155,26 +152,26 @@
   <section id="sec3" class="mt-5 pt-5">
     <div class="container-fluid p-0">
       <div class="row">
-        <div class="col-6 col-md-3 mb-4" id="food1">
+        <div data-aos="zoom-in-right" data-aos-offset="300" class="col-6 col-md-3 mb-4" id="food1">
           <img src="./assets/img/food5.jpg" class="w-100" />
         </div>
-        <div class="col-6 col-md-3" id="food2">
+        <div data-aos="zoom-out-left" data-aos-offset="300" class="col-6 col-md-3" id="food2">
           <img src="./assets/img/food6.jpg" class="w-100" />
         </div>
-        <div class="col-6 col-md-3" id="food3">
+        <div data-aos="zoom-out-right" data-aos-offset="300" class="col-6 col-md-3" id="food3">
           <img src="./assets/img/food2.png" class="w-100" />
         </div>
-        <div class="col-6 col-md-3" id="food3">
+        <div data-aos="zoom-in-left" data-aos-offset="300" class="col-6 col-md-3" id="food3">
           <img src="./assets/img/food3.png" class="w-100" />
         </div>
       </div>
     </div>
   </section>
 
-  <section id="sec4" class="mt-5 pt-5">
+  <section id="sec4" class="pt-5">
     <div class="container cont1">
       <div class="row">
-        <div class="order-1 col-md-6 d-flex flex-column justify-content-center">
+        <div data-aos="fade-left" class="order-1 col-md-6 d-flex flex-column justify-content-center">
           <div class="content">
             <div class="text">
               <h2 class="head2">Ms. Iqbal now oversees the operations of the dining facility at her restaurant.</h2>
@@ -185,7 +182,7 @@
             </div>
           </div>
         </div>
-        <div class="mb-5 mb-md-0 col-12 col-md-6 d-flex flex-column justify-content-center">
+        <div data-aos="fade-right" class="mb-5 mb-md-0 col-12 col-md-6 d-flex flex-column justify-content-center">
           <img src="./assets/img/chef3.jpg" class="img-responsive washimg w-100" />
         </div>
       </div>
@@ -196,7 +193,7 @@
   <section id="sec5" class="mt-5 pt-5">
     <div class="container-fluid lastcont">
       <div class="row px-0 mx-0 py-5 px-lg-5 mx-lg-5">
-        <div class="col-10 col-md-8 col-lg-7 m-auto text-center">
+        <div data-aos="zoom-in" class="col-10 col-md-8 col-lg-7 m-auto text-center">
           <p class="head7">She envisions herself to continue delighting her guests with scrumptious delicacies from her kitchen</p>
         </div>
       </div>
@@ -225,7 +222,7 @@
             <ul style="list-style-type: none;">
               <li class="cont-head pb-3"><a href="./menu.html" class="cont-head">DISCOVER MENU</a></li>
               <li class="cont-head pb-3"><a href="./locatios.html" class="cont-head">LOCATION & HOURS</a></li>
-              <li class="cont-head pb-3"><a href="#" class="cont-head">ORDER TAKEAWAY & DELIVERY</a></li>
+              <li class="cont-head pb-3"><a href="./order.html" class="cont-head">ORDER TAKEAWAY & DELIVERY</a></li>
               <li class="cont-head pb-3"><a href="./our_chef.html" class="cont-head">OUR CHEF</a></li>
               <li class="cont-head pb-3">CONTACT US</li>
             </ul>
@@ -281,6 +278,13 @@
     </div>
   </footer>
 
+  <script src="./assets/vendor/aos/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000
+    });
+  </script>
   
   
 </body>
