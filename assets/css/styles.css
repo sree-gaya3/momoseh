@@ -1,3 +1,63 @@
+/* Font Families */
+@font-face {
+  font-family: "sofia-pro-black";
+  src: url(../fonts/SOFIA\ PRO\ BLACK\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-black-italic";
+  src: url(../fonts/SOFIA\ PRO\ BLACK\ ITALIC\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-bold";
+  src: url(../fonts/SOFIA\ PRO\ BOLD\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-bold-italic";
+  src: url(../fonts/SOFIA\ PRO\ BOLD\ ITALIC\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-extralight";
+  src: url(../fonts/SOFIA\ PRO\ EXTRALIGHT\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-extralight-italic";
+  src: url(../fonts/SOFIA\ PRO\ EXTRALIGHT\ ITALIC\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-light";
+  src: url(../fonts/SOFIA\ PRO\ LIGHT\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-light-italic";
+  src: url(../fonts/SOFIA\ PRO\ LIGHT\ ITALIC\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-medium";
+  src: url(../fonts/SOFIA\ PRO\ MEDIUM\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-medium-italic";
+  src: url(../fonts/SOFIA\ PRO\ MEDIUM\ ITALIC\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-regular";
+  src: url(../fonts/SOFIA\ PRO\ REGULAR\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-regular-italic";
+  src: url(../fonts/SOFIA\ PRO\ REGULAR\ ITALIC\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-semibold";
+  src: url(../fonts/SOFIA\ PRO\ SEMI\ BOLD\ AZ.OTF);
+}
+@font-face {
+  font-family: "sofia-pro-semibold-italic";
+  src: url(../fonts/SOFIA\ PRO\ SEMI\ BOLD\ ITALIC\ AZ.OTF);
+}
+
+/* General Rules */
+
 body {
   overflow-x: hidden;
 }
@@ -7,8 +67,9 @@ a:hover {
 }
 .navlinks {
   color: #1b2429;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-family: "sofia-pro-bold";
+  padding-right: 5px;
 }
 .cont {
   padding: 0;
@@ -41,31 +102,25 @@ a:hover {
   border: transparent;
 }
 .head1 {
-  font-size: 40px;
+  font-size: 38px;
   color: #e9f4e6;
-  font-weight: 300;
-}
-.sphead1 {
-  font-weight: 800;
 }
 .btn1 {
   color: #e9f4e6;
   font-size: 20px;
-  font-weight: 500;
   background-color: #ed1b24;
 }
 .head2 {
-  font-size: 32px;
-  color: #1b2429;
+  font-size: 30px;
+  font-family: 'sofia-pro-semibold';
 }
 .head3 {
-  font-size: 18px;
-  color: #5f6668;
+  font-size: 16px;
+  font-family: 'sofia-pro-light';
 }
 .btn22 {
   color: #ed1b24;
   font-size: 20px;
-  font-weight: 500;
 }
 .btn22:hover {
   color: black;
@@ -73,8 +128,8 @@ a:hover {
 .btn2 {
   color: #e9f4e6;
   font-size: 20px;
-  font-weight: 500;
   background-color: #ed1b24;
+  font-family: 'sofia-pro-semibold';
 }
 
 .chefimg {
@@ -95,10 +150,12 @@ a:hover {
 .head4 {
   font-size: 32px;
   color: #e9f4e6;
+  font-family: 'sofia-pro-regular';
 }
 .head5 {
   font-size: 18px;
-  color: #e9f4e6;
+  color: #e9f4e6ec;
+  font-family: 'sofia-pro-extralight';
 }
 .cont1 {
   overflow: hidden;
@@ -125,17 +182,15 @@ a:hover {
 }
 .cont-head {
   font-size: 20px;
-  font-weight: 700;
   color: #e9f4e6;
+  font-family: 'sofia-pro-semibold';
 }
 .cont-para {
   font-size: 18px;
-  font-weight: 400;
   color: #e9f4e6;
 }
 .cont-phone {
   font-size: 20px;
-  font-weight: 700;
   color: #ed1b24;
 }
 .cont-phone:hover {
@@ -144,7 +199,6 @@ a:hover {
 }
 .cont-para2 {
   font-size: 14px;
-  font-weight: 400;
   color: #e9f4e6;
 }
 .circle-icon2 {
