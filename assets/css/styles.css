@@ -258,6 +258,9 @@ a:hover {
   background-repeat:no-repeat; 
   background-size: cover;
 }
+.bg5 {
+  background-image: url(../img/bg_imgs/bg15.jpeg);
+}
 .cont3 {
   padding: 0;
   position: relative;
