@@ -1,0 +1,240 @@
+body {
+  overflow-x: hidden;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.navlinks {
+  color: #1b2429;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cont {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+.bg1 {  
+  position: absolute;
+  width: 100%; 
+  height: 80vh;
+  background-image: url(../img/bg1.png);
+  background-position: 0 0; 
+  background-repeat:no-repeat; 
+  background-size: cover;
+ }
+.bg2 {
+  position: absolute; 
+  width: 57vw; 
+  height: 80vh;
+  background-image: url(../img/food1.png);
+  background-position: 0 0; 
+  background-repeat:no-repeat; 
+  background-size: cover;
+}
+
+.card {
+  background-color: transparent;
+  border: transparent;
+}
+.head1 {
+  font-size: 40px;
+  color: #e9f4e6;
+  font-weight: 300;
+}
+.sphead1 {
+  font-weight: 800;
+}
+.btn1 {
+  color: #e9f4e6;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #ed1b24;
+}
+.head2 {
+  font-size: 32px;
+  color: #1b2429;
+}
+.head3 {
+  font-size: 18px;
+  color: #5f6668;
+}
+.btn22 {
+  color: #ed1b24;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn22:hover {
+  color: black;
+}
+.btn2 {
+  color: #e9f4e6;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #ed1b24;
+}
+
+.chefimg {
+  width: 100%;
+}
+
+.home {
+  position: relative;
+  background-image: url(../img/bg2_.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.delimg {
+  width: 100%;
+  padding: 0;
+}
+.head4 {
+  font-size: 32px;
+  color: #e9f4e6;
+}
+.head5 {
+  font-size: 18px;
+  color: #e9f4e6;
+}
+.cont1 {
+  overflow: hidden;
+}
+.washimg {
+  object-fit: fill;
+}
+.cont2 {
+  background-image: url(../img/fruits1a.png), url(../img/fruits1b.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: left bottom , right;
+}
+/* #1b2429 */
+.footercont {
+  background-color: #1b2429;
+}
+.circle-icon {
+  font-size: 22px;
+  color: #e9f4e6;
+  background: #ed1b24;
+  padding:10px;
+  border-radius: 50%;
+}
+.cont-head {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e9f4e6;
+}
+.cont-para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e9f4e6;
+}
+.cont-phone {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ed1b24;
+}
+.cont-phone:hover {
+  text-decoration: none;
+  color: #ed1b24;
+}
+.cont-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #e9f4e6;
+}
+.circle-icon2 {
+  font-size: 15px;
+  color: #e9f4e6;
+  background: transparent;
+  padding:10px;
+  border-radius: 50%;
+  border: 2px solid #e9f4e6;
+}
+.circle-icon3 {
+  font-size: 40px;
+  padding: 2px 7px 0px 7px;
+  border-radius: 20%;
+  color: #e9f4e6;
+}
+.home2 {
+  position: relative;
+  background-image: url(../img/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.head6 {
+  font-size: 30px;
+  color: #00a650;
+}
+#text-row {
+  padding: 0;
+  margin: 0;
+}
+.bg3 {
+  width: 100%; 
+  height: 30vh;
+  background-image: url(../img/bg4.png);
+  background-position: 0 0; 
+  background-repeat:no-repeat; 
+  background-size: cover;
+}
+.chefimg2 {
+  width: 80%; 
+}
+.lastcont {
+  background-image: url(../img/bg5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head7 {
+  font-size: 22px;
+  color: #e9f4e6;
+}
+.bg4 {
+  width: 100%; 
+  height: 40vh;
+  background-image: url(../img/bg4.png);
+  background-position: 0 0; 
+  background-repeat:no-repeat; 
+  background-size: cover;
+}
+.cont3 {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+}
+.card1 {
+  height: fit-content;
+}
+.small-anim {
+  position: fixed;
+  padding-left: 30px;
+}
+.cont4 {
+  background-image: url(../img/bg8.jpeg);
+}
+.cont5 {
+  background-image: url(../img/bg9.jpeg);
+}
+
+@media only screen and (min-width: 992px) {
+  .bg1 {  
+    position: absolute;
+    width: 100%; 
+    height: 80vh;
+    background-image: url(../img/bg10.jpeg);
+    background-position: 0 0; 
+    background-repeat:no-repeat; 
+    background-size: cover;
+  }
+}
+
+
