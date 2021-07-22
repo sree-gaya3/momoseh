@@ -161,7 +161,7 @@ a:hover {
   overflow: hidden;
 }
 .washimg {
-  object-fit: fill;
+  width: 90%;
 }
 .cont2 {
   background-image: url(../img/fruits1a.png), url(../img/fruits1b.png);
