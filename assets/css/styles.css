@@ -132,6 +132,7 @@ a:hover {
   font-family: 'sofia-pro-semibold';
 }
 
+
 .chefimg {
   width: 100%;
 }
@@ -164,7 +165,7 @@ a:hover {
   width: 90%;
 }
 .cont2 {
-  background-image: url(../img/fruits1a.png), url(../img/fruits1b.png);
+  background-image: url(../img/fruits1aa.png), url(../img/fruits1bb.png);
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
   background-position: left bottom , right;
@@ -254,6 +255,14 @@ a:hover {
   width: 100%; 
   height: 40vh;
   background-image: url(../img/bg4.png);
+  background-position: 0 0; 
+  background-repeat:no-repeat; 
+  background-size: cover;
+}
+.bg6 {
+  width: 100%; 
+  height: 40vh;
+  background-image: url(../img/bg11.jpg);
   background-position: 0 0; 
   background-repeat:no-repeat; 
   background-size: cover;
